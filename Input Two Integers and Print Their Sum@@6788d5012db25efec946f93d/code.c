@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%i %i",&a, &b);
-
-    int c=a+b;
-    printf("You entered: %i",c);
+    int a,b,c;
+    scanf("%d %d",&a, &b);
+    printf("You entered: %d",c);
     return 0;
 }
