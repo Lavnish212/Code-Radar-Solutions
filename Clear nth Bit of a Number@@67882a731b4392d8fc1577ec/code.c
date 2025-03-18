@@ -15,7 +15,7 @@ int main(){
     int j=0;
    while(m>0){
         if(arr[j]!=0){
-            if(j=0){
+            if(j==0){
                 sum+=multiple;
             }else{
             multiple=multiple+arr[j]*2;
