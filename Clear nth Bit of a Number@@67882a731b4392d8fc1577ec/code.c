@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    int i,n,position;
+    int i,n,position,m;
     scanf("%d %d",&n,&position);
+    m=n;
     int arr[32];
     while(n>0){
         arr[i]=n%2;
@@ -10,7 +11,8 @@ int main(){
     }
     int sum=0;
     int multiple=1;
-    for(int j=0;j<position;j++){
+    int j=0;
+   while(m>0){
         if(arr[j]!=0){
             if(j=0){
                 sum+=multiple;
@@ -21,7 +23,8 @@ int main(){
         }else{
             sum=sum+0;
         }
-
+        m=m/2;
+        j++;
     }
     printf("%d",sum);
     return 0;
