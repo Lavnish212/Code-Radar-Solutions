@@ -12,8 +12,12 @@ int main(){
     int multiple=1;
     for(int j=0;j<position;j++){
         if(arr[j]!=0){
+            if(j=0){
+                sum+=multiple;
+            }else{
             multiple=arr[j]*2;
             sum+=multiple;
+            }
         }else{
             sum=sum+0;
         }
