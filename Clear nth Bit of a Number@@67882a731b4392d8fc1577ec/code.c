@@ -23,8 +23,8 @@ int main(){
             }
         }else{
             sum=sum+0;
+            multiple=multiple*2;
         }
-        multiple=multiple*2;
         m=m/2;
         j++;
     }
