@@ -15,7 +15,7 @@ int main(){
             multiple=arr[j]*2;
             sum+=multiple;
         }else{
-            multiple=0;
+            sum=sum+0;
         }
 
     }
