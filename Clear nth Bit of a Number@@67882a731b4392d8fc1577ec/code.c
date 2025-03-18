@@ -11,8 +11,8 @@ int main(){
     int sum=0;
     int multiple=1;
     for(int j=0;j<position;j++){
-        if(binary[j]!=0){
-            multiple=binary*2;
+        if(arr[j]!=0){
+            multiple=arr*2;
             sum+=multiple;
         }else{
             multiple=0;
