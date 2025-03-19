@@ -9,7 +9,7 @@ int main(){
         i++;
     }
     for(int j=0;j<i;j++){
-        printf("%d",arr[j]|1);
+        printf("%d",arr[j]&1);
     }
     return 0;
 }
