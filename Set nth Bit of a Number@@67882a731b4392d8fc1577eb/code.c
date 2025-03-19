@@ -10,8 +10,7 @@ int main(){
     }
     int sum=0;
     int multiple=1;
-    int len=sizeof(arr)/sizeof(arr[0]);
-    for(int j=0;j<len;j++){
+    for(int j=0;j<i;j++){
         if(j==position){
             arr[j]=1;
         }
