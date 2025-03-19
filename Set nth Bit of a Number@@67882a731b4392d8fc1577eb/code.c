@@ -8,12 +8,13 @@ int main(){
         n=n/2;
         i++;
     }
+    if(position>=i){
+        i=position+1;
+    }
+    arr[position]=1;
     int sum=0;
     int multiple=1;
     for(int j=0;j<i;j++){
-        if(j==position){
-            arr[j]=1;
-        }
         sum=sum+multiple*arr[j];
         multiple=multiple*2;
     }
