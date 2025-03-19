@@ -4,6 +4,7 @@ int main(){
     scanf("%d",&n);
     int arr[32]={0};
     if(n==0){
+        printf("%d",0);
        return 0; 
     }
     while(n>0){
