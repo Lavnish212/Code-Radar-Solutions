@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n,i=0;
+    int n,i=0;\
+    scanf("%d",&n);
     int arr[32]={0};
     if(n==0){
         printf("%d",0);
