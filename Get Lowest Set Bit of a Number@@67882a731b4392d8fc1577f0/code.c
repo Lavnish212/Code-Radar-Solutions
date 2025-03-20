@@ -2,6 +2,10 @@
 int main(){
     int n,i=0;
     int arr[32]={0};
+    if(n==0){
+        return printf("%d",0);
+        return 0;
+    }
     while(n>0){
         arr[i]=n%2;
         n=n/2;
