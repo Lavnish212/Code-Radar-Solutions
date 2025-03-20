@@ -14,7 +14,7 @@ int main(){
     }
     for(int j=0;j<i;j++){
         if(arr[j]==1&&j>0){
-            return printf("%d",j+1);
+            return printf("%d",j);
         }
     }
     return 0;
