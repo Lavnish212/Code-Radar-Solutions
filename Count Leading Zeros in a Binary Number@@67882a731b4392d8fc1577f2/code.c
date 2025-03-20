@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
+    unsigned int n;
+    scanf("%u",&n);
     int i=0;
     int arr[32]={0};
     if(n==0){
