@@ -7,6 +7,6 @@ int main(){
         n=n/2;
         i++;
     }
-    printf("%d",arr[i]);
+    printf("%d",i);
     return 0;
 }
