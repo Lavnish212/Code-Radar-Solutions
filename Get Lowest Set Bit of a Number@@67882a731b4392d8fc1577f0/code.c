@@ -7,6 +7,11 @@ int main(){
         n=n/2;
         i++;
     }
-    printf("%d",i);
+    int least=0;
+    for(int j=0;j<i;j++){
+        if(arr[j]==1&&j>0){
+            return printf("%d",j);
+        }
+    }
     return 0;
 }
