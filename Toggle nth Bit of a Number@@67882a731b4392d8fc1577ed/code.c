@@ -21,6 +21,6 @@ int main(){
         sum=sum+multiple*arr[j];
         multiple=multiple*2;
     }
-    print("%d",sum);
+    printf("%d",sum);
     return 0;
 }
