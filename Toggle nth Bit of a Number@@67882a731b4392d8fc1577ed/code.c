@@ -10,6 +10,9 @@ int main(){
     }
     int sum=0;
     int multiple=1;
+    if (position >= i) {
+        i = position + 1;  // Extend the number of bits if needed
+    }
     for(int j=0;j<i;j++){
         if(j==position){
             if(arr[j]==0){
