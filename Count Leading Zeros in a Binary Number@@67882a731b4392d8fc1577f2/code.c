@@ -6,7 +6,7 @@ int main(){
     if(n==0){
         printf("%d",32);
     }
-    whille(n>0){
+    while(n>0){
         arr[i]=n%2;
         n=n/2;
         i++;
