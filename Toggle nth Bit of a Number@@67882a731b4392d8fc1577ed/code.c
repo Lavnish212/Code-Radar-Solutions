@@ -13,7 +13,7 @@ int main(){
     for(int j=0;j<i;j++){
         if(j==position){
             if(arr[j]==0){
-                arr[j]=1
+                arr[j]=1;
             }else{
                 arr[j]=0;
             }
