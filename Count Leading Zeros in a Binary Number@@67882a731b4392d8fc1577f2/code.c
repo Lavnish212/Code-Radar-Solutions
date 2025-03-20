@@ -11,6 +11,7 @@ int main(){
         n=n/2;
         i++;
     }
-    printf("%d",32-i);
+    int m=32-i;
+    printf("%d",m);
     return 0;
 }
