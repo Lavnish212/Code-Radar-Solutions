@@ -6,7 +6,7 @@ int main(){
     int peak;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        printf("\n");
+        // printf("\n");
     }
     for(int i=0;i<n;i++){
          if(arr[i]<arr[i+1]){
