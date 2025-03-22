@@ -11,7 +11,7 @@ int main(){
          }
     }
     if(peak){
-        printf("%d",peak)
+        printf("%d",peak);
     }else{
         printf("-1");
     }
