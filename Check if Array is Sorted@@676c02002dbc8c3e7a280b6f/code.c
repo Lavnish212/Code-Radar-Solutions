@@ -7,7 +7,7 @@ int main(){
         // int a;
         scanf("%d ",&arr[i]);
     }
-    bool main= true;
+    bool main = true;
     for(int j =0;j<n;j++){
 
         for(int k=0;k<n;k++){
