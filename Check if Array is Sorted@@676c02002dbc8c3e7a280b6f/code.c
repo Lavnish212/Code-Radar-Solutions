@@ -9,22 +9,11 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     bool main = true;
-    for(int j =0;j<n;j++){
+    for(int j =1;j<=n;j++){
 
-        for(int k=0;k<n;k++){
-            if(j<=k){
-                if(arr[j]<=arr[k]){
-                    main;
-                }else{
-                   main =false ;
-                   break;
-                }
-            }else{
-                if(arr[j]>arr[k]){
-                    main=false;
-                    break;
-                }
-            }
+        if(arr[j]<arr[j-1]){
+            main=false;
+            break;
         }
     }
     if(main){
