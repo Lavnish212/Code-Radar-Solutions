@@ -5,6 +5,10 @@ int main(){
     int arr[n];
     int peak;
     for(int i=0;i<n;i++){
+        scanf("%d",arr[i]);
+        printf("\n");
+    }
+    for(int i=0;i<n;i++){
          if(arr[1]<arr[i+1]){
             peak=arr[i+1];
             break;
