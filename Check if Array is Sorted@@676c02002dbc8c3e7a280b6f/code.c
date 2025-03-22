@@ -14,7 +14,10 @@ int main(){
         if(arr[j]<arr[j-1]){
             main=false;
             break;
+        }else if(arr[j]==arr[j-1]){
+            main;
         }
+        
     }
     if(main){
         printf("Sorted");
