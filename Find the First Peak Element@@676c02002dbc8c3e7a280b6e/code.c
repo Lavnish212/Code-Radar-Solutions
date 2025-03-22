@@ -5,8 +5,8 @@ int main(){
     int arr[n];
     int peak;
     for(int i=0;i<n;i++){
-         if(arr[j]<arr[j+1]){
-            peak=arr[j+1];
+         if(arr[1]<arr[i+1]){
+            peak=arr[i+1];
             break;
          }
     }
