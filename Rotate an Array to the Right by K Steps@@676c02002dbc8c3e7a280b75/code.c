@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<pos;i++){
         int arr2[n];
         for(int j=0;j<n;j++){
-            if(j+1==n-1){
+            if(j==n-1){
                 arr2[0]=arr[j];
             }else{
             arr2[j+1]=arr[j];
