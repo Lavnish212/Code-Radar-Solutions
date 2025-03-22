@@ -2,31 +2,33 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[]={};
+    int arr[n];
     for(int i=0;i<n;i++){
-        int a;
-        scanf("%d ",&a);
+        // int a;
+        scanf("%d ",&arr[i]);
     }
-    bool a= true;
+    bool main= true;
     for(int j =0;j<n;j++){
 
         for(int k=0;k<n;k++){
             if(j<=k){
                 if(arr[j]<=arr[k]){
-                    a;
+                    main;
                 }else{
-                    a=false;
+                   main =false ;
+                   break;
                 }
             }else{
                 if(arr[j]>arr[k]){
-                    a=false;
+                    main=false;
+                    break;
                 }
             }
         }
     }
-    if(a==false){
-        printf("Not Sorted");
-    }else{
+    if(main){
         printf("Sorted");
+    }else{
+        printf("Not Sorted");
     }
 }
