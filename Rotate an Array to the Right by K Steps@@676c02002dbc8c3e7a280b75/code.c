@@ -7,19 +7,13 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     scanf("%d",&pos);
-    for(int i=0;i<pos;i++){
-        int arr2[n];
+    pos=pos%n;
+     int arr2[n];
         for(int j=0;j<n;j++){
-            if(j==n-1){
-                arr2[0]=arr[j];
-            }else{
-            arr2[j+1]=arr[j];
-            }
+            arr2[(j+pos)%n]=arr[j];
         }
-        arr[n]=arr2[n];
-    }
     for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
+        printf("%d ",arr2[i]);
     }
     return 0;
 }
