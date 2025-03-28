@@ -18,7 +18,7 @@ int main(){
             }
             
         }
-        printf("\n\n");
+        printf("\n");
     }
     return 0;
 }
