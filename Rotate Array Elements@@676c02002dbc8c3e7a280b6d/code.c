@@ -3,14 +3,14 @@ int main(){
     int n;
     scanf("%d",&n);
     int m;
-    int arr[];
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&m);
         arr[i]=m;
     }
     int a;
     scanf("%d",&a);
-    int arr1[];
+    int arr1[n];
     if(a>n){
         a=a%n;
     }
