@@ -10,7 +10,7 @@ int main(){
     }
     bool nis=true;
     for(int i=0;i<n;i++){
-        if(arr[i]==arr[-(i+1)]){
+        if(arr[i]==arr[n-i-1]){
             nis;
         }else{
             nis=false;
