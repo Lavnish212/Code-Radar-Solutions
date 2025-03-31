@@ -15,10 +15,10 @@ int main(){
             index=i;
             break;
         }else{
-            nis=false;
+            index=-1;
         }
     }
-    if(!nis){
+    if(index==-1){
         printf("-1");
     }else{
         printf("%d",index);
