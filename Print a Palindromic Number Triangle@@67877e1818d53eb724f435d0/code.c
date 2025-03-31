@@ -14,7 +14,8 @@ int main(){
             }
             else{
                 --a;
-                printf("%d",--a);
+                printf("%d",a);
+                a--;
             }
         }
         printf("\n");
