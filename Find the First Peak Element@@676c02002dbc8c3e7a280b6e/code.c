@@ -13,8 +13,12 @@ int main(){
             peak=arr[i];
             break;
          }else if(arr[i+1]>arr[i]){
+            if(i+1>n-1){
+                peak=arr[i];
+                break;
+            }
             peak=arr[i+1];
-            // break;
+            break;
          }
     }
     if(peak){
