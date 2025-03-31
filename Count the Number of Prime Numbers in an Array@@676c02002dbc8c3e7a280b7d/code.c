@@ -24,5 +24,5 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
-    prime( arr[n], n);
+    prime(int arr[n],int n);
 }
