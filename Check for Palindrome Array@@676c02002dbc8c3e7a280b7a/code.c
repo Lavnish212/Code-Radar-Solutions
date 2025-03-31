@@ -14,7 +14,7 @@ int main(){
             nis=0;
         }
     }
-    if(nis){
+    if(nis==1){
         printf("YES");
     }else{
         printf("NO");
