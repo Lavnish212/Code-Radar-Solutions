@@ -8,14 +8,16 @@ int main(){
             printf(" ");
         }
         for(int j=1;j<2*i;j++){
-            if(j<=i){
+            if(j<i){
                 printf("%d",a);
                 a++;
+            }else if(i==j){
+                printf("%d",a);
             }
             else{
                 // --a;
-                printf("%d",a);
                 a--;
+                printf("%d",a);
             }
         }
         printf("\n");
