@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int temp =arr[i];
-        int arr2[],j=0,sum=0;
+        int j=0,sum=0;
         while(temp!=0){
             sum=temp%10;
             temp=temp/10;
