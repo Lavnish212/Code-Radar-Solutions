@@ -4,15 +4,15 @@ void prime(int arr[],int n){
     int count=0;
     for(int i=0;i<n;i++){
         bool nis=true;
+        int num=arr[i];
+        if(num<=1){
+            continue;
+        }
         for(int j=2;j<arr[i];j++){
-            if(arr[i]==0||arr[i]==1){
-                nis=false;
-            }else{
                 if(arr[i]%j!=0){
                      nis;
             }else{
                 nis=false;
-            }
             }
         }
         if(nis){
