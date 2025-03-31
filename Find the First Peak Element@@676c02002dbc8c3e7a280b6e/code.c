@@ -14,6 +14,7 @@ int main(){
             break;
          }else if(arr[i+1]>arr[i]){
             peak=arr[i+1];
+            break;
          }
     }
     if(peak){
