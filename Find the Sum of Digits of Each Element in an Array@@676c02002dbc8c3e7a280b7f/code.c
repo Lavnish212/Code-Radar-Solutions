@@ -14,6 +14,11 @@ int main(){
             temp=temp/10;
             // j++;
         }
+        if(sum<0){
+            printf("%d ",-(sum));
+        }else{
         printf("%d ",sum);
+
+        }
     }
 }
