@@ -7,12 +7,12 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int search;
+    int search,index;
     scanf("%d",&search);
      bool nis=true;
     for(int i=0;i<n;i++){
         if(arr[i]==search){
-            printf("%d",i);
+            index=i;
             break;
         }else{
             nis=false;
@@ -20,5 +20,7 @@ int main(){
     }
     if(!nis){
         printf("-1");
+    }else{
+        printf("%d",index);
     }
 }
