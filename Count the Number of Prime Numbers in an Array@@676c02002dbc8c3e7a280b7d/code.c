@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
-void prime(int arr[n]){
+void prime(int arr[]){
     int count=0;
     for(int i=0;i<n;i++){
         bool nis=true
