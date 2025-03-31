@@ -8,11 +8,16 @@ int main(){
     }
     int search;
     scanf("%d",&search);
+     bool nis=true;
     for(int i=0;i<n;i++){
         if(arr[i]==search){
             printf("%d",i);
             break;
+        }else{
+            nis=false;
         }
-        
+    }
+    if(!nis){
+        printf("-1");
     }
 }
