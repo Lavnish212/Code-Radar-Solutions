@@ -18,7 +18,7 @@ int main(){
                 break;
             }
             peak=arr[i+1];
-            break;
+            // break;
          }
     }
     if(peak){
