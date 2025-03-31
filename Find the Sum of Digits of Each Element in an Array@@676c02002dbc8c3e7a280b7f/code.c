@@ -12,7 +12,7 @@ int main(){
         while(temp!=0){
             sum=temp%10;
             temp=temp/10;
-            j++;
+            // j++;
         }
         printf("%d ",sum);
     }
