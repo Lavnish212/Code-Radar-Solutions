@@ -9,11 +9,11 @@ int main(){
         }
         for(int j=1;j<2*i;j++){
             if(j<=i){
-                printf("%d",a);
+                printf("%d ",a);
                 a++;
             }
             else{
-                a--;
+                --a;
                 printf("%d",a);
             }
         }
