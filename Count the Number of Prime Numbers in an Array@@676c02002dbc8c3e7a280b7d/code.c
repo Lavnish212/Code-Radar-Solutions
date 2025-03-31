@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdbool.h>
-void prime(int arr[]){
+void prime(int arr[],int n){
     int count=0;
     for(int i=0;i<n;i++){
         bool nis=true
@@ -24,5 +24,5 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
-    prime(int arr[n]);
+    prime(int arr[n],int n);
 }
