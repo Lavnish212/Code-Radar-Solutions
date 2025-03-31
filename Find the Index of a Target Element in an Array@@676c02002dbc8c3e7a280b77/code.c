@@ -11,8 +11,8 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]==search){
             printf("%d",i);
-        }else{
-            printf("-1");
+            break;
         }
+        
     }
 }
