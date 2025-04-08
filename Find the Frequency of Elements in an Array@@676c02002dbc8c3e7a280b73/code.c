@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr2[]={};
+    int arr2[n];
     int m=0;
     for(int i=0;i<n;i++){
     bool a=true;
