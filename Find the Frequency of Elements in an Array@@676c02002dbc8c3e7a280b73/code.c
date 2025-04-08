@@ -13,7 +13,7 @@ int main(){
     bool a=true;
         for(int j=0;j<i;j++){
             if(arr2[j]!=arr[i]){
-                a   
+                a   ;
             }else{
                 a=false;
             }
