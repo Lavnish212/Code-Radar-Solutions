@@ -18,7 +18,7 @@ int main(){
                 a=false;
             }
         }
-        if(bool){
+        if(a){
             arr2[m]=arr2[m];
             m++;
         }
