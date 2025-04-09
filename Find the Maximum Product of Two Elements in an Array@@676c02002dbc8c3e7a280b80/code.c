@@ -10,7 +10,9 @@ int main(){
     for( i=0;i<n;i++){
         int temp=0;
         for(j=i;j<n;j++){
+            if(i!=j){
             temp=arr[i]*arr[j];
+            }
         }
         if(temp>=max){
             max=temp;
