@@ -16,7 +16,7 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]>=second && max!=arr[i]){
             second=arr[i];
-        }else{
+        }else if(arr[i]>=second){
             second=-1;
         }
     }
