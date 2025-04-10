@@ -14,7 +14,7 @@ int main(){
         for(int j=0;j<i;j++){
             if(arr2[j]==arr[i]){
                 a;
-                break;
+                // break;
             }else{
                 a=false;
             }
