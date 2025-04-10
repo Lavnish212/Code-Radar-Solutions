@@ -19,7 +19,7 @@ int main(){
             }
         }
         if(a){
-            arr2[m]=arr2[m];
+            arr2[m]=arr[m];
             m++;
         }
     }
