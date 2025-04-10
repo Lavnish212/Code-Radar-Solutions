@@ -39,9 +39,8 @@ int main(){
         if(arr3[i]>=large){
             large=arr3[i];
             num=arr2[i];
-        }else{
-            
-        }
+        }        
+        
     }
     if(num){
         printf("-1");
