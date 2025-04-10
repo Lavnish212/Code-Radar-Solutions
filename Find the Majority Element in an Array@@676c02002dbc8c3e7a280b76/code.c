@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d ",&arr[n]);
+        scanf("%d ",&arr[i]);
     }
     int arr2[n];
     int m=0;
@@ -14,6 +14,7 @@ int main(){
         for(int j=0;j<i;j++){
             if(arr2[j]==arr[i]){
                 a;
+                break;
             }else{
                 a=false;
             }
@@ -21,7 +22,7 @@ int main(){
         if(a){
             arr2[m]=arr[m];
             m++;
-        }
+        }   
     }
     int arr3[m];
     for(int i=0;i<m;i++){
